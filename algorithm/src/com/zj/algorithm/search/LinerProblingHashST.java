@@ -1,5 +1,16 @@
 package com.zj.algorithm.search;
 
+/**
+ * 基于线性探测的符号表
+ * 
+ * @ClassName: LinerProblingHashST
+ * @Description: TODO
+ * @author zJun
+ * @date 2013年7月27日 下午11:13:15
+ * 
+ * @param <Key>
+ * @param <Value>
+ */
 public class LinerProblingHashST<Key, Value> {
 	private static final int INIT_SIZE = 16;
 
