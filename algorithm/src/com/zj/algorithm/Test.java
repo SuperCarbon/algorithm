@@ -6,21 +6,12 @@ import java.util.Date;
 public class Test {
 
 	public static void main(String[] args) throws IOException {
-		Date date = new Date();
-		Employee e = new Employee(date);
-		System.out.print(e.date);
-	}
-
-	public int add(int i) {
-		return 0;
-	}
-
-	public int add(String i) {
-		return 0;
-	}
-
-	public String add() {
-		return "1";
+		String a = "123";
+		String b = "123";
+		String c = new String("123");
+		String d = new String("123");
+		//System.out.println(a.equals(b));
+		System.out.println(c.equals(a));
 	}
 
 }

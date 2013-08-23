@@ -23,7 +23,7 @@ public class LSD {
 			// 将频率转换为索引
 			for (int k = 0; k < R; k++) {
 				count[k + 1] += count[k];
-				//System.out.println(count[k]);
+				// System.out.println(count[k]);
 			}
 			// 将元素分类
 			for (int l = 0; l < N; l++) {
@@ -41,9 +41,9 @@ public class LSD {
 				"4JZY524", "1ICK750", "3CIO720", "1OHV845", "1OHV845",
 				"2RLA629", "2RLA629", "3ATW723" };
 		sort(a, 7);
-		// for (int i = 0; i < a.length; i++) {
-		// System.out.println(a[i]);
-		// }
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
 
 	}
 
